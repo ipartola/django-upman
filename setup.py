@@ -5,7 +5,7 @@ from setuptools import setup
 with codecs.open('README.md', 'r', 'utf-8') as f:
     readme = f.read()
 
-version = '0.1.0'
+version = '0.1.1'
 
 setup(
     name='django-upman',
@@ -15,6 +15,7 @@ setup(
     long_description=readme,
     author='Igor Partola',
     author_email='igor@igorpartola.com',
+    url='https://github.com/ipartola/django-upman',
     license='MIT License',
     keywords='Django uploads manager',
     install_requires=['django', 'Pillow'],
